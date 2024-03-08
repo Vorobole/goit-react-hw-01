@@ -1,11 +1,10 @@
-// import { useState } from "react";
-
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
 import "./App.css";
 import Profile from "./components/profile/profile";
 import userData from "./data/userData.json";
+import FriendList from "./components/FriendList/FriendList";
 
+// import FriendItem from "./components/FriendList/FriendItem";
+import friends from "./data/friends.json";
 function App() {
   return (
     <>
@@ -16,6 +15,7 @@ function App() {
         avatar={userData.avatar}
         stats={userData.stats}
       />
+      <FriendList friends={friends} />
     </>
   );
 }
