@@ -4,7 +4,7 @@
 // import viteLogo from "/vite.svg";
 import "./App.css";
 import Profile from "./components/profile/profile";
-import userData from "./components/profile/userData.json";
+import userData from "./data/userData.json";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         name={userData.username}
         tag={userData.tag}
         location={userData.location}
-        image={userData.avatar}
+        avatar={userData.avatar}
         stats={userData.stats}
       />
     </>
