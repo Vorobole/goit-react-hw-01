@@ -5,6 +5,7 @@ import FriendList from "./components/FriendList/FriendList";
 import friends from "./data/friends.json";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 import transactions from "./data/transaction.json";
+
 function App() {
   return (
     <>
