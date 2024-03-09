@@ -10,7 +10,7 @@ h6 {
 }
 .profileContainer {
   display: flex;
-  background-color: white;
+  background-color: #ffffff;
   width: 250px;
   align-items: center;
   justify-content: center;
