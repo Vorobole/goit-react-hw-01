@@ -4,8 +4,8 @@ const Profile = (props) => {
   const {
     name,
     tag,
-    location,
     avatar,
+    location,
     stats: { followers, views, likes },
   } = props;
   return (
